@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Tas Unik - Fashion Trendy</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#FFB800',
+                        secondary: '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="relative bg-white overflow-hidden">
+        <div class="container mx-auto px-4 py-12 md:py-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-6">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800">
+                        Tren Mode Yang Tak Lekang Oleh Waktu.
+                    </h1>
+                    <p class="text-gray-600 text-lg">
+                        We believe that fashion should be accessible, affordable, contemporary and comfortable.
+                    </p>
+                    <button class="bg-primary hover:bg-yellow-500 text-white font-semibold py-3 px-8 rounded-lg transition duration-300">
+                        Belanja Sekarang
+                    </button>
+                    <div class="flex space-x-12 mt-12">
+                        <div class="text-center">
+                            <i class="fas fa-truck text-2xl text-primary mb-2"></i>
+                            <h3 class="font-semibold">Pengiriman Gratis</h3>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-headset text-2xl text-primary mb-2"></i>
+                            <h3 class="font-semibold">Dukungan 24/7</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.pexels.com/photos/1936848/pexels-photo-1936848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                         alt="Fashion Model with Bag" 
+                         class="rounded-lg shadow-xl object-cover h-[600px] w-full transform hover:scale-105 transition-transform duration-500">
+                <div class="absolute top-4 right-4 bg-white p-6 rounded-lg shadow-lg max-w-xs">
+                        <p class="text-gray-600 italic">"We have no regrets! I would like to personally thank you for your outstanding product."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Tas Selempang -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                         alt="Tas Selempang" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Tas Selempang</h3>
+                        <p class="text-gray-600 mb-4">We always strive to give our best for you.</p>
+                        <a href="#" class="text-primary font-semibold hover:text-yellow-600 flex items-center">
+                            Lihat Koleksi
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tas Branded -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                         alt="Tas Branded" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Tas Branded</h3>
+                        <p class="text-gray-600 mb-4">We always strive to give our best for you.</p>
+                        <a href="#" class="text-primary font-semibold hover:text-yellow-600 flex items-center">
+                            Lihat Koleksi
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ransel -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                         alt="Ransel" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Ransel</h3>
+                        <p class="text-gray-600 mb-4">We always strive to give our best for you.</p>
+                        <a href="#" class="text-primary font-semibold hover:text-yellow-600 flex items-center">
+                            Lihat Koleksi
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ransel Daypack -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/1546003/pexels-photo-1546003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                         alt="Ransel Daypack" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Ransel Daypack</h3>
+                        <p class="text-gray-600 mb-4">We always strive to give our best for you.</p>
+                        <a href="#" class="text-primary font-semibold hover:text-yellow-600 flex items-center">
+                            Lihat Koleksi
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-12 text-center">Fitur Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Material Terbaik -->
+                <div class="bg-primary text-white p-8 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-star text-4xl mb-4 text-white/90"></i>
+                    <h3 class="text-xl font-semibold mb-4">Material Terbaik</h3>
+                    <p>This is one of the most exciting advantages we have. Order now and you will know.</p>
+                    <a href="#" class="inline-block mt-4 text-white font-semibold hover:text-gray-200">
+                        Detail <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Tahan Air -->
+                <div class="bg-white border border-gray-200 p-8 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-tint text-4xl text-primary mb-4 opacity-90"></i>
+                    <h3 class="text-xl font-semibold mb-4">Tahan Air</h3>
+                    <p class="text-gray-600">This is one of the most exciting advantages we have. Order now and you will know.</p>
+                    <a href="#" class="inline-block mt-4 text-primary font-semibold hover:text-yellow-600">
+                        Detail <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Desain Terbaru -->
+                <div class="bg-white border border-gray-200 p-8 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-paint-brush text-4xl text-primary mb-4 opacity-90"></i>
+                    <h3 class="text-xl font-semibold mb-4">Desain Terbaru</h3>
+                    <p class="text-gray-600">This is one of the most exciting advantages we have. Order now and you will know.</p>
+                    <a href="#" class="inline-block mt-4 text-primary font-semibold hover:text-yellow-600">
+                        Detail <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Galeri Kami</h2>
+            <h3 class="text-3xl font-bold mb-12">Tampil Gaya dengan Produk Kami</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <img src="https://images.pexels.com/photos/1214212/pexels-photo-1214212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                     alt="Gallery Image 1" 
+                     class="rounded-lg shadow-lg w-full h-96 object-cover hover:scale-105 transition-transform duration-500">
+                <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                     alt="Gallery Image 2" 
+                     class="rounded-lg shadow-lg w-full h-96 object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">About Us</h4>
+                    <p class="text-gray-400">We believe that fashion should be accessible, affordable, contemporary and comfortable.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fas fa-phone mr-2"></i> +1234567890</li>
+                        <li class="text-gray-400"><i class="fas fa-envelope mr-2"></i> info@example.com</li>
+                        <li class="text-gray-400"><i class="fas fa-map-marker-alt mr-2"></i> 123 Street, City, Country</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Toko Tas Unik. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
